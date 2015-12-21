@@ -3,7 +3,8 @@ MAINTAINER felix@felixrieseberg.com
 
 RUN apt-get update \
   && apt-get install -y \
-    node \
+    nodejs \
+    npm \
     python-pygments \
     ncftp \
   && apt-get clean \
