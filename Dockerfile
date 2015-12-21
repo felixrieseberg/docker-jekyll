@@ -7,7 +7,7 @@ RUN apt-get update \
     python-pygments \
     ncftp \
   && apt-get clean \
-  && rm -rf /var/lib/apt/lists/
+  && rm -rf /var/lib/apt/lists/*
 
 # Install NodeJS
 RUN \
